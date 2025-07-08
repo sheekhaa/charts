@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@elastic/charts": "^70.0.1",
+    "@elastic/charts": "70.1.0",
+    "@elastic/eui": "70.1.0",
+    "@emotion/react": "^11.0.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
@@ -14,15 +16,15 @@
     "@types/react-dom": "^19.0.0",
     "chroma-js": "2.1.0",
     "moment-timezone": "^0.6.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "resolutions": {
-  "chroma-js": "2.4.2" 
-},
+    "chroma-js": "2.4.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -51,5 +53,5 @@
   "devDependencies": {
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0"
-  } 
+  }
 }
